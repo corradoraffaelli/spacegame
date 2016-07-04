@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: 80275060b6e10684789abbc1214f0407
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Fire_Normal
+    21300002: Fire_Pressed
+    21300004: Reload_Normal
+    21300006: Reload_Pressed
+    21300008: Back_Normal
+    21300010: Back_Pressed
+    21300012: Jump_Normal
+    21300014: Jump_Pressed
+    21300016: CrossHair
+    21300018: FireNormal
+    21300020: FirePressed
+    21300022: ReloadNormal
+    21300024: ReloadPressed
+    21300026: TurnNormal
+    21300028: TurnPressed
+    21300030: JumpNormal
+    21300032: JumpPressed
+    21300034: Crosshair
+    21300036: RunNormal
+    21300038: runPressed
+    21300040: SniperNormal
+    21300042: SniperPressed
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FireNormal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 33}
+        - {x: 124, y: 49}
+        - {x: 105, y: 83}
+        - {x: 83, y: 105}
+        - {x: 49, y: 124}
+        - {x: 35, y: 128}
+        - {x: -41, y: 128}
+        - {x: -88, y: 102}
+        - {x: -114, y: 71}
+        - {x: -123, y: 50}
+        - {x: -128, y: 37}
+        - {x: -128, y: -45}
+        - {x: -116, y: -68}
+        - {x: -84, y: -105}
+        - {x: -55, y: -121}
+        - {x: -35, y: -128}
+        - {x: 45, y: -128}
+        - {x: 87, y: -104}
+        - {x: 115, y: -69}
+        - {x: 128, y: -38}
+    - name: FirePressed
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 33}
+        - {x: 124, y: 49}
+        - {x: 105, y: 83}
+        - {x: 83, y: 105}
+        - {x: 49, y: 124}
+        - {x: 35, y: 128}
+        - {x: -41, y: 128}
+        - {x: -88, y: 102}
+        - {x: -114, y: 71}
+        - {x: -123, y: 50}
+        - {x: -128, y: 37}
+        - {x: -128, y: -45}
+        - {x: -116, y: -68}
+        - {x: -84, y: -105}
+        - {x: -55, y: -121}
+        - {x: -35, y: -128}
+        - {x: 45, y: -128}
+        - {x: 87, y: -104}
+        - {x: 115, y: -69}
+        - {x: 128, y: -38}
+    - name: ReloadNormal
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 33}
+        - {x: 124, y: 49}
+        - {x: 105, y: 83}
+        - {x: 83, y: 105}
+        - {x: 49, y: 124}
+        - {x: 35, y: 128}
+        - {x: -41, y: 128}
+        - {x: -88, y: 102}
+        - {x: -114, y: 71}
+        - {x: -123, y: 50}
+        - {x: -128, y: 37}
+        - {x: -128, y: -45}
+        - {x: -116, y: -68}
+        - {x: -84, y: -105}
+        - {x: -55, y: -121}
+        - {x: -35, y: -128}
+        - {x: 45, y: -128}
+        - {x: 87, y: -104}
+        - {x: 115, y: -69}
+        - {x: 128, y: -38}
+    - name: ReloadPressed
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 33}
+        - {x: 124, y: 49}
+        - {x: 105, y: 83}
+        - {x: 83, y: 105}
+        - {x: 49, y: 124}
+        - {x: 35, y: 128}
+        - {x: -41, y: 128}
+        - {x: -88, y: 102}
+        - {x: -114, y: 71}
+        - {x: -123, y: 50}
+        - {x: -128, y: 37}
+        - {x: -128, y: -45}
+        - {x: -116, y: -68}
+        - {x: -84, y: -105}
+        - {x: -55, y: -121}
+        - {x: -35, y: -128}
+        - {x: 45, y: -128}
+        - {x: 87, y: -104}
+        - {x: 115, y: -69}
+        - {x: 128, y: -38}
+    - name: TurnNormal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 33}
+        - {x: 124, y: 49}
+        - {x: 105, y: 83}
+        - {x: 83, y: 105}
+        - {x: 49, y: 124}
+        - {x: 35, y: 128}
+        - {x: -41, y: 128}
+        - {x: -88, y: 102}
+        - {x: -114, y: 71}
+        - {x: -123, y: 50}
+        - {x: -128, y: 37}
+        - {x: -128, y: -45}
+        - {x: -116, y: -68}
+        - {x: -84, y: -105}
+        - {x: -55, y: -121}
+        - {x: -35, y: -128}
+        - {x: 45, y: -128}
+        - {x: 87, y: -104}
+        - {x: 115, y: -69}
+        - {x: 128, y: -38}
+    - name: TurnPressed
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 33}
+        - {x: 124, y: 49}
+        - {x: 105, y: 83}
+        - {x: 83, y: 105}
+        - {x: 49, y: 124}
+        - {x: 35, y: 128}
+        - {x: -41, y: 128}
+        - {x: -88, y: 102}
+        - {x: -114, y: 71}
+        - {x: -123, y: 50}
+        - {x: -128, y: 37}
+        - {x: -128, y: -45}
+        - {x: -116, y: -68}
+        - {x: -84, y: -105}
+        - {x: -55, y: -121}
+        - {x: -35, y: -128}
+        - {x: 45, y: -128}
+        - {x: 87, y: -104}
+        - {x: 115, y: -69}
+        - {x: 128, y: -38}
+    - name: JumpNormal
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 33}
+        - {x: 124, y: 49}
+        - {x: 105, y: 83}
+        - {x: 83, y: 105}
+        - {x: 49, y: 124}
+        - {x: 35, y: 128}
+        - {x: -41, y: 128}
+        - {x: -88, y: 102}
+        - {x: -114, y: 71}
+        - {x: -123, y: 50}
+        - {x: -128, y: 37}
+        - {x: -128, y: -45}
+        - {x: -116, y: -68}
+        - {x: -84, y: -105}
+        - {x: -55, y: -121}
+        - {x: -35, y: -128}
+        - {x: 45, y: -128}
+        - {x: 87, y: -104}
+        - {x: 115, y: -69}
+        - {x: 128, y: -38}
+    - name: JumpPressed
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 33}
+        - {x: 124, y: 49}
+        - {x: 105, y: 83}
+        - {x: 83, y: 105}
+        - {x: 49, y: 124}
+        - {x: 35, y: 128}
+        - {x: -41, y: 128}
+        - {x: -88, y: 102}
+        - {x: -114, y: 71}
+        - {x: -123, y: 50}
+        - {x: -128, y: 37}
+        - {x: -128, y: -45}
+        - {x: -116, y: -68}
+        - {x: -84, y: -105}
+        - {x: -55, y: -121}
+        - {x: -35, y: -128}
+        - {x: 45, y: -128}
+        - {x: 87, y: -104}
+        - {x: 115, y: -69}
+        - {x: 128, y: -38}
+    - name: Crosshair
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 235, y: 42}
+        - {x: 209, y: 147}
+        - {x: 59, y: 236}
+        - {x: -68, y: 236}
+        - {x: -72, y: 234}
+        - {x: -199, y: 140}
+        - {x: -235, y: 32}
+        - {x: -235, y: -21}
+        - {x: -189, y: -144}
+        - {x: -107, y: -235}
+        - {x: 87, y: -235}
+        - {x: 137, y: -195}
+        - {x: 222, y: -88}
+        - {x: 235, y: -47}
+      - - {x: -183, y: -99}
+        - {x: -32, y: -40}
+        - {x: -142, y: 64}
+        - {x: 11, y: 100}
+        - {x: 14, y: 103}
+        - {x: 160, y: 135}
+        - {x: 94, y: 15}
+        - {x: 94, y: -13}
+        - {x: 11, y: -98}
+        - {x: -11, y: -98}
+        - {x: -14, y: -101}
+    - name: SniperNormal
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 33}
+        - {x: 124, y: 49}
+        - {x: 105, y: 83}
+        - {x: 83, y: 105}
+        - {x: 49, y: 124}
+        - {x: 35, y: 128}
+        - {x: -41, y: 128}
+        - {x: -88, y: 102}
+        - {x: -114, y: 71}
+        - {x: -123, y: 50}
+        - {x: -128, y: 37}
+        - {x: -128, y: -45}
+        - {x: -116, y: -68}
+        - {x: -84, y: -105}
+        - {x: -55, y: -121}
+        - {x: -35, y: -128}
+        - {x: 45, y: -128}
+        - {x: 87, y: -104}
+        - {x: 115, y: -69}
+        - {x: 128, y: -38}
+    - name: RunNormal
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 33}
+        - {x: 124, y: 49}
+        - {x: 105, y: 83}
+        - {x: 83, y: 105}
+        - {x: 49, y: 124}
+        - {x: 35, y: 128}
+        - {x: -41, y: 128}
+        - {x: -88, y: 102}
+        - {x: -114, y: 71}
+        - {x: -123, y: 50}
+        - {x: -128, y: 37}
+        - {x: -128, y: -45}
+        - {x: -116, y: -68}
+        - {x: -84, y: -105}
+        - {x: -55, y: -121}
+        - {x: -35, y: -128}
+        - {x: 45, y: -128}
+        - {x: 87, y: -104}
+        - {x: 115, y: -69}
+        - {x: 128, y: -38}
+    - name: SniperPressed
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 33}
+        - {x: 124, y: 49}
+        - {x: 105, y: 83}
+        - {x: 83, y: 105}
+        - {x: 49, y: 124}
+        - {x: 35, y: 128}
+        - {x: -41, y: 128}
+        - {x: -88, y: 102}
+        - {x: -114, y: 71}
+        - {x: -123, y: 50}
+        - {x: -128, y: 37}
+        - {x: -128, y: -45}
+        - {x: -116, y: -68}
+        - {x: -84, y: -105}
+        - {x: -55, y: -121}
+        - {x: -35, y: -128}
+        - {x: 45, y: -128}
+        - {x: 87, y: -104}
+        - {x: 115, y: -69}
+        - {x: 128, y: -38}
+    - name: runPressed
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 33}
+        - {x: 124, y: 49}
+        - {x: 105, y: 83}
+        - {x: 83, y: 105}
+        - {x: 49, y: 124}
+        - {x: 35, y: 128}
+        - {x: -41, y: 128}
+        - {x: -88, y: 102}
+        - {x: -114, y: 71}
+        - {x: -123, y: 50}
+        - {x: -128, y: 37}
+        - {x: -128, y: -45}
+        - {x: -116, y: -68}
+        - {x: -84, y: -105}
+        - {x: -55, y: -121}
+        - {x: -35, y: -128}
+        - {x: 45, y: -128}
+        - {x: 87, y: -104}
+        - {x: 115, y: -69}
+        - {x: 128, y: -38}
+    outline: []
+  spritePackingTag: ETCSprites
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
