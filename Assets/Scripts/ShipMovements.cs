@@ -24,23 +24,23 @@ public class ShipMovements : MonoBehaviour {
 		playerZ = transform.position.z;
 	}
 
-	void Update()
-	{
-		if (move) {
-
-		}
-	}
-
 	void FixedUpdate()
 	{
 		if (move) {
-			rigBody.AddRelativeForce (Vector2.up * enginePower);
+			float speedMultiplier = 1.0f;
+			if (fingerPoint.transform.localPosition.y < 0.0f)
+				speedMultiplier = -1.0f;
+
+			float relSpeed = Vector2.Dot (rigBody.velocity, new Vector2 (transform.up.x, transform.up.y));
+				
+			if ((relSpeed < 0.5f && speedMultiplier > 0.0f) || (relSpeed > 0.5f && speedMultiplier < 0.0f))
+				rigBody.AddRelativeForce (Vector2.up * enginePower * speedMultiplier);
 
 			float multiplier = 1.0f;
 			if (fingerPoint.transform.localPosition.x > 0.0f)
 				multiplier = -1.0f;
 
-
+			//TODO: torque relative to the difference between angles, if angle is little, torque little
 
 			bool negativeExcedeed = multiplier < 0 && rigBody.angularVelocity < -maxAngularVelocity;
 			bool positiveExcedeed = multiplier > 0 && rigBody.angularVelocity > maxAngularVelocity;

@@ -4,18 +4,22 @@ using System.Collections;
 public class ShipInput : MonoBehaviour {
 
 	ShipMovements shipMovements;
-	ShipProjectile projectile;
+	ShipProjectileSpawner projectile;
+
+	public float timeBetweenDownUp = 0.3f;
+	float touchStartTime = 0.0f;
 
 
 	void OnEnable(){
 		// Take components
 		shipMovements = GetComponent<ShipMovements>();
-		projectile = GetComponent<ShipProjectile> ();
+		projectile = GetComponent<ShipProjectileSpawner> ();
 
 		// Subscribe to events 
 		EasyTouch.On_TouchDown += OnTouchDown;
 		EasyTouch.On_SimpleTap += OnSimpleTouch;
 		EasyTouch.On_TouchUp += OnTouchUp;
+		EasyTouch.On_TouchStart += OnTouchStart;
 	}
 
 	void OnDisable(){
@@ -40,11 +44,22 @@ public class ShipInput : MonoBehaviour {
 	{
 		if (shipMovements != null)
 			shipMovements.DontReachPosition ();
+
+		if (projectile != null) {
+			bool canShoot = ((Time.time - touchStartTime) < timeBetweenDownUp);
+			if (canShoot)
+				projectile.Shoot ();
+		}
 	}
 
 	public void OnSimpleTouch(Gesture gesture)
 	{
-		if (projectile != null)
-			projectile.Shoot ();
+//		if (projectile != null)
+//			projectile.Shoot ();
+	}
+
+	public void OnTouchStart(Gesture gesture)
+	{
+		touchStartTime = Time.time;
 	}
 }
